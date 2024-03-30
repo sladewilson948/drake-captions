@@ -16,7 +16,7 @@ function runeveryfourseconds()
 
 async function getCaption() {
     try {
-        const response = await fetch("/quotes.json");
+        const response = await fetch("https://sladewilson948.github.io/drake-captions/quotes.json");
         const json_data = await response.json();
         const list1 = json_data["quotes"]
         const idx = Math.floor(Math.random()*list1.length)
