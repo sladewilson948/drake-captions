@@ -21,7 +21,17 @@ async function getCaption() {
         const list1 = json_data["quotes"]
         const idx = Math.floor(Math.random()*list1.length)
         const tag1 = document.getElementById("drake-caption")
-        tag1.textContent = "' " + list1[idx] + " '"  + " - Aubrey Graham"
+        tag1.style.opacity = 0;
+
+        // Wait for a short time to allow the text to fade out
+        setTimeout(() => {
+            // Change the text content
+            tag1.textContent = "' " + list1[idx] + " '";
+            
+            // Fade in the new text
+            tag1.style.opacity = 1;
+        }, 500);
+
         
         
         

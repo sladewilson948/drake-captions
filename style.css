@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
 
 * {
@@ -11,7 +12,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     background-color: #171a19;
@@ -25,7 +26,7 @@
 
 .captions {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 18px;
@@ -40,12 +41,41 @@
     color: #D5EDED;
 }
 
+.header {
+    display: flex;
+    font-family: "Workbench", sans-serif;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 6vh;
+    color: #D5EDED;
+    font-size: 65px;
+    width: 80%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 20px;
+    background-color: #171a19;
+    font-family: "Workbench", sans-serif;
+    color: #D5EDED;
+}
+
+#drake-caption {
+    transition: opacity 0.6s ease-in-out;
+    /* Adjust the transition timing as needed */
+}
+
 @media screen and (max-width:768px) {
 
     .container {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 90vh;
         justify-content: center;
         align-items: center;
         background-color: #171a19;
@@ -59,7 +89,7 @@
 
     .captions {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         font-size: 8px;
@@ -73,6 +103,37 @@
         background-position: center;
         color: #D5EDED;
     }
+
+    .header {
+        display: flex;
+        font-family: "Workbench", sans-serif;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        height: 6vh;
+        color: #D5EDED;
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        background-color: #171a19;
+        font-family: "Workbench", sans-serif;
+        font-size: 16px;
+        color: #D5EDED;
+    }
+
+    #drake-caption {
+        transition: opacity 0.5s ease-in-out;
+        /* Adjust the transition timing as needed */
+    }
+
+
 
 
 
