@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
 
@@ -16,8 +16,8 @@
     justify-content: center;
     align-items: center;
     background-color: #171a19;
-    font-family: "Alice", serif;
-    font-weight: 200;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
     font-style: normal;
 
 
@@ -79,8 +79,8 @@
         justify-content: center;
         align-items: center;
         background-color: #171a19;
-        font-family: "Alice", serif;
-        font-weight: 200;
+        font-family: "Rethink Sans", sans-serif;
+        font-optical-sizing: auto;
         font-style: normal;
 
 
